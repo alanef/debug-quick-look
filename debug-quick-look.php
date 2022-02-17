@@ -41,6 +41,12 @@
 if ( ! defined( 'DEBUG_QUICK_LOOK_VERS' ) ) {
 	define( 'DEBUG_QUICK_LOOK_VERS', '0.0.3' );
 }
+if ( ! defined( 'WP_DEBUG' ) ) {
+	define( 'WP_DEBUG', true' );
+}
+if ( ! defined( 'WP_DEBUG_DISPLAY' ) ) {
+	define( 'WP_DEBUG_DISPLAY', true' );
+}
 
 /**
  * Call our class.
